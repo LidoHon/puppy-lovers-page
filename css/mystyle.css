@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 5%;
+}
+header{
+    background-color: #065070;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.banner img{
+width: 100%;
+padding-bottom: 30px;
+}
+
+.container img{
+width: 100%;
+}
+.puppyContainer{
+    padding-bottom: 30px;
+}
+.missingText{
+    display: none;
+}
+
+.TitleMorePuppies{
+    text-align: center;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.leftP{
+    padding-bottom: 30px;
+}
+footer{
+    background-color: #065070;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 50px;
+    font-size: 18px;
+}
+
+/* ********************** */
+/* ******media query **** */
+/* ********************** */
+
+
+@media(min-width: 720px) {
+    .container{
+        width: 680px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .missingText{
+        display: block;
+    } 
+    
+    
+
+    .topContainer .container{
+        display: flex;
+        
+
+
+    }
+    .puppyContainer, .missingText {
+        width: 33%;
+    }
+
+    
+    .missingText{
+        background-color: #f04d64;
+        text-align: center;
+        
+
+    }
+
+.missingTextContainer{
+    font-size: 25px;
+    padding-top: 80px;
+    /* padding-bottom: -30px; */
+   
+}
+.missingText{
+    margin: 0 1%;
+    height: 223px;
+}
+ .topContainer .container .puppyContainer img{
+width: 100%;
+ }
+ 
+
+
+ .topContainer .container .TitleMorePuppies{
+width: 100%;
+}
+
+.lastPuppies .container .lastPuppiesWrapper{
+    display: flex;
+}
+
+.leftP{
+    margin-right: 35px;  
+}
+
+.rightP{
+    margin-left: 35px;
+}
+
+}
+
+
+@media(min-width: 980px) {
+    .container{
+        width: 720px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .missingText{
+        margin: 0 1%;
+        height: 235px;
+    }
+}
+
+
+@media(min-width: 1024px) {
+    .container{
+        width: 980px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .missingText{
+        margin: 0 1%;
+        height: 320px;
+    }
+}
