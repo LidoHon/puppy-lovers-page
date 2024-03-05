@@ -58,10 +58,7 @@ footer{
     font-size: 18px;
 }
 
-/* ********************** */
 /* ******media query **** */
-/* ********************** */
-
 
 @media(min-width: 720px) {
     .container{
@@ -140,15 +137,3 @@ width: 100%;
     }
 }
 
-
-@media(min-width: 1024px) {
-    .container{
-        width: 980px;
-        padding: 0 10px;
-        margin: 0 auto;
-    }
-    .missingText{
-        margin: 0 1%;
-        height: 320px;
-    }
-}
